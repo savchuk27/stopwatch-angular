@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+  }
+  
+h3 {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FA8072;
+}
+  
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #ADD8e6;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 1rem;
+    margin-top: 2rem;
+}
+  
+.doc-container {
+    margin-top: 4rem;
+    border: 3px groove red;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+  
+.btn {
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.btn.success {
+    background: green;
+    color: black;
+}
+  
+.btn.warning {
+    background: yellow;
+    color: black;
+}
+  
+.btn.danger {
+    background: red;
+    color: black;
+}
+  
